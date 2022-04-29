@@ -110,19 +110,19 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach ($plans as $plan)
+                                    @foreach ($plans as $row)
                                     <tr>
                                         <td>
-                                           <a href="https://www.google.com/maps/search/?api=1&query={{ $plan['title'] }}">MAP</a>
+                                           <a href="https://www.google.com/maps/search/?api=1&query={{ $row['title'] }}">MAP</a>
                                         </td>
                                         <td>
-                                        <a href="/edit/{{$plan['id']}}" class="card-text d-block">
-                                            {{ $plan['title'] }}
+                                        <a href="/edit/{{$row['id']}}" class="card-text d-block">
+                                            {{ $row['title'] }}
                                         </a>
                                         </td>
                                             <td>
                                                 <p class="card-text d-block">
-                                                {{ $plan['content'] }}
+                                                {{ $row['content'] }}
                                                 </p>
                                             </td>
                                     </tr>
