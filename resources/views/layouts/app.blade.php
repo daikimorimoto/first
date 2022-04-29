@@ -88,8 +88,8 @@
                         </div>
 
                         <div class="card-body my-card-body">
-                            @foreach ($travel as $travel)
-                            <a href="/?travel={{$travel['title']}}" class="card-text d-block">{{ $travel['title'] }}</a>
+                            @foreach ($travel as $row)
+                            <a href="/?travel={{$row['title']}}" class="card-text d-block">{{ $row['title'] }}</a>
                             @endforeach
                         </div>
                     </div>
