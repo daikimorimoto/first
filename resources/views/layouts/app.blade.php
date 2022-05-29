@@ -78,7 +78,7 @@
             </div>
         </nav>
 
-        {{-- 2カラムに変更 --}}
+        {{-- カラムに変更 --}}
         <main class="">
            <div class="row">
                 <div class="col-sm-12 col-md-2 p-0">
