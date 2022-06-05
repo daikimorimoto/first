@@ -113,7 +113,7 @@
                                     @foreach ($plans as $row)
                                     <tr>
                                         <td>
-                                           <a href="https://www.google.com/maps/search/?api=1&query={{ $row['title'] }}">MAP</a>
+                                           <button onclick="location.href='https://www.google.com/maps/search/?api=1&query={{ $row['title'] }}'" class="btn btn-primary">MAP</button>
                                         </td>
                                         <td>
                                         <a href="/edit/{{$row['id']}}" class="card-text d-block">
