@@ -9,7 +9,7 @@
   @endsection
 
 @section('content')
-    <div class="card  my-card-body">
+    <div class="card-body">
         <div class="card-header">
             編集
         </div>
