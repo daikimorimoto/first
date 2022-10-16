@@ -20,7 +20,7 @@ AWS <br>
  ・lightsail <br>
  ・Route53 <br>
 ## インフラ構造図 <br>
-
+[インフラ全体像.pdf](https://github.com/daikimorimoto/first/files/9793899/default.pdf)
 ## 機能一覧 <br>
 会員登録（メールアドレスとパスワードで登録） <br>
 ログイン・ログアウト <br>
